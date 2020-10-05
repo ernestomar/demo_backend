@@ -3,46 +3,25 @@ Content-Type: application/json
 
 {
  "studentId" :  1,
- "fullName" : "Lucas Paz"
+ "fullName" : "Jesus Carlos Antonio Rocha Vedia"
 }
 ###
-<<<<<<< HEAD
+
 PUT http://localhost:8090/v2/student
 Content-Type: application/json
 
 {
   "studentId" :  1,
   "fullName" : "Lucas Paz"
-=======
-GET http://localhost:8090/v2/student/?studentId=30
-Content-Type: application/json
-###
-
-DELETE http://localhost:8090/v2/student/?studentId=30
-Content-Type: application/json
-###
-
-PUT http://localhost:8090/v2/student
-Content-Type: application/json
-{
-  "studentId" :  1,
-  "fullName" : "Lucas Pas"
->>>>>>> 7032736ef52b0762f5b05456f04e5be087da1f54
 }
 ###
 
-
-
-<<<<<<< HEAD
 GET http://localhost:8090/v2/student/?studentId=30
 Content-Type: application/json
+
 ###
 
 DELETE http://localhost:8090/v2/student/?studentId=30
 Content-Type: application/json
+
 ###
-
-
-
-=======
->>>>>>> 7032736ef52b0762f5b05456f04e5be087da1f54
