@@ -24,9 +24,10 @@ public class Student {
 
     public Integer getStudentId() {return studentId;}
 
+    public void setStudentId(Integer studentId) {this.studentId = studentId;}
+
     public String getFullName() {return fullName;}
 
-    public void setStudentId(Integer studentId) {this.studentId = studentId;}
 
     public void setFullName(String fullName) {this.fullName = fullName;}
 
