@@ -6,20 +6,23 @@ Content-Type: application/json
  "fullName" : "Lucas Paz"
 }
 ###
+PUT http://localhost:8090/v2/student
+Content-Type: application/json
+
+{
+  "studentId" :  1,
+  "fullName" : "Lucas Paz"
+}
+###
+
+
+
 GET http://localhost:8090/v2/student/?studentId=30
 Content-Type: application/json
 ###
 
 DELETE http://localhost:8090/v2/student/?studentId=30
 Content-Type: application/json
-###
-
-PUT http://localhost:8090/v2/student
-Content-Type: application/json
-{
-  "studentId" :  1,
-  "fullName" : "Lucas Pas"
-}
 ###
 
 
