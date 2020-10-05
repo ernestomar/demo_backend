@@ -33,7 +33,13 @@ public class StudentBl {
         }
     }
 
-    public void deleteStudent(Student student) {
-        this.studentRepository.delete(student);
+    public void deleteStudent(Integer studentId) {
+        Optional<Student> result = this.studentRepository.findById(studentId);
+        if (result.isPresent()) {
+            this.studentRepository.delete(result.get());
+        } else {
+            throw new RuntimeException("No existe un estudiante para la llave primaria: " + studentId);
+        }
+
     }
 }
